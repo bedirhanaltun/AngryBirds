@@ -57,7 +57,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
         
         birdSettings()
         
-        scoreLabelSettings()
+        scoreSettings()
         
     }
     
@@ -188,7 +188,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
         
     }
     
-    func scoreLabelSettings(){
+    func scoreSettings(){
         scoreLabel.fontName = "Helvetica"
         scoreLabel.fontSize = 60
         scoreLabel.text = "0"
